@@ -1,0 +1,21 @@
+@import "../var";
+@import "../mixin";
+
+.deliver-section{
+    background: rgb(221, 207, 207);
+    text-align: center;
+    padding: 3rem 0;
+    & figure img{
+        height: 7rem;
+    }
+    & .card{
+        height: 19.5rem;
+        & p{
+            color: $text_color;
+        }
+        & img{
+            height: 5rem;
+            width: 5.2rem;
+        }
+    }
+}

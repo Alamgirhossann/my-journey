@@ -1,0 +1,14 @@
+@import "../var";
+@import "../mixin";
+
+.routes-operator-section{
+    background: rgb(221, 207, 207);
+    padding: 4rem 0;
+    & .route p{
+        color: $text_color;
+    }
+    & .operator a{
+        color: $text_color;
+        text-decoration: none;
+    }
+}

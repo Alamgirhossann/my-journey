@@ -1,0 +1,20 @@
+@import '../mixin';
+@import '../var';
+
+.sms-email-section{
+    margin: 10rem 0;
+    color: $text_color;
+    & .sms-email-form-control {
+       @include form-control;
+      }
+    & .sms-btn{
+        @include common_btn(100%)
+    }
+    & h3{
+        font-size: 2.5rem;
+    }
+    & p{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../var';
+
+.nav-background{
+    background-color: $secondary_color;
+    // border-bottom: 3px solid #fff;
+    & .navbar-brand{
+        padding: 0;
+        & img{
+            height: 4rem;
+            width: 4.9rem;
+        }
+    }
+    // & .navbar-nav .nav-link{
+    //     color: #FF735C;
+    // }
+}

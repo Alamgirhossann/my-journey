@@ -1,0 +1,24 @@
+@import "../var";
+@import "../mixin";
+
+.footer {
+  background: rgb(206, 125, 125);
+  color: $white_color;
+  padding: 3rem 0 1rem 0;
+  & figure img {
+    height: 4rem;
+  }
+  & .footer-icon {
+    display: flex;
+    & img {
+      height: 2rem;
+      padding-right: 0.5rem;
+    }
+  }
+  & .app-store{
+    display: flex;
+    & figure img{
+      height: 8rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../mixin";
+@import "../var";
+
+.cancel-section {
+  margin: 10rem 0;
+  color: $text_color;
+  & .cancel-form-control{
+    @include form-control;
+  }
+  & .cancel-btn {
+    @include common_btn(100%);
+  }
+  & h3 {
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+}

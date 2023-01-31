@@ -1,0 +1,57 @@
+@import "../mixin";
+@import "../var";
+
+.signup-section {
+  margin: 7rem 0 5rem 0;
+  color: $text_color;
+  & h3 {
+    padding-bottom: 1.5rem;
+  }
+  & .form-control-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & form {
+      width: 40rem;
+      & input {
+        border: 1px solid $secondary_color;
+        opacity: 0.8;
+        &::placeholder {
+          color: $text_color;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  & .signup-btn {
+    @include common_btn(100%);
+  }
+  & .social-media-sign {
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & .row {
+      width: 40.5rem;
+    }
+    & .common-signin-btn {
+      display: flex;
+      justify-content: center;
+      border: 1px solid $secondary_color;
+      padding: 0.3rem 0;
+      margin-bottom: .7rem;
+      & img {
+        height: 2.3rem;
+        padding: 0;
+      }
+      & button {
+        border: none;
+        outline: none;
+        background: white;
+      }
+    }
+    & p {
+      padding-top: 0.5rem;
+    }
+  }
+}

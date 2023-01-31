@@ -1,0 +1,32 @@
+@import "../var";
+@import "../mixin";
+
+.convenience-section{
+    margin: 2.5rem 0;
+    & figure img{
+        height: 32rem;
+        width: 30rem;
+    }
+    & .convenience-text{
+        & h2{
+            padding-bottom: 1.2rem;
+        }
+        & p{
+            font-size: 1rem;
+            color: $text_color;
+        }
+    }
+    & .sms-btn{
+        @include common_btn(35%);
+    }
+    & form .store-icon {
+        & .apple{
+            height: 3rem;
+            padding-right: 2rem;
+        }
+        & .play{
+            height: 2.6rem;
+            margin-top: 5px;
+        }
+    }
+}

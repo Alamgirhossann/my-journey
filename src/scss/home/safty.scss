@@ -1,0 +1,31 @@
+@import "../var";
+
+.sefety-section {
+  border: 1px solid gray;
+  padding: 2rem 1rem;
+  margin: 4rem 0;
+  & figure img{
+    height: 5rem;
+  }
+  & .safety-text {
+    & h2 {
+      font-weight: bold;
+    }
+    & p {
+      font-size: 1.5rem;
+      color: $text_color;
+      & a{
+        font-size: .8rem;
+        color: $secondary_color;
+      }
+    }
+  }
+  & h3 {
+    font-size: 1.4rem;
+    color: $secondary_color;
+  }
+  & p {
+    font-size: 1rem;
+    color: $text_color;
+  }
+}

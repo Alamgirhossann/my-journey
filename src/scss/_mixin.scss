@@ -1,0 +1,16 @@
+@mixin common_btn($width) {
+    background: $secondary_color;
+    width: $width;
+    color: white;
+}
+@mixin form-control {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & form {
+      width: 50rem;
+      & input {
+        border: 1px solid $secondary_color;
+      }
+    }
+}

@@ -1,0 +1,10 @@
+@import '../var';
+@import '../mixin';
+
+.book-vehicle{
+    margin: 5rem 0;
+    & .vehicles-card{
+        border: 1px solid gray;
+        height: 7rem;
+    }
+}

@@ -1,0 +1,20 @@
+@import "../var";
+@import "../mixin";
+
+.award-section{
+    text-align: center;
+    margin: 2.5rem;
+    & h2{
+        padding-bottom: .7rem;
+    }
+    & .award-card{
+        & p{
+            color: $text_color;
+        }
+        & img{
+            height: 4rem;
+            width: 4rem;
+            margin: 1rem 0;
+        }
+    } 
+}

@@ -1,0 +1,14 @@
+@import "../var";
+@import "../mixin";
+
+.operator-detail{
+    margin: 8rem 0 3rem 0;
+    & .operator-text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        & p{
+            width: 30rem;
+        }
+    }
+}

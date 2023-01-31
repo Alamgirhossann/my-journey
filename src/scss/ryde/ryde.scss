@@ -1,0 +1,16 @@
+@import '../var';
+@import '../mixin';
+
+.ryde-section{
+    margin: 7rem 0 5rem 0;
+    color: $text_color;
+   & .chosse-vehicle{
+       text-align: center;
+   }
+    & .select-trip{
+        text-align: center;
+        & .trip-card:hover{
+            transform: scaleY(1.1);
+        }
+    }
+}
